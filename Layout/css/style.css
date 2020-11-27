@@ -144,3 +144,27 @@ img {
 .news-money span {
   color: #746565;
 }
+.totalvejamais {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "veja-mais";
+}
+.veja-mais {
+  display: grid;
+  grid-area: veja-mais;
+  justify-content: center;
+}
+.btn-vejamais {
+  width: 250px;
+  height: 60px;
+  background: #c4170c;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+}
+.btn-vejamais a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+}
