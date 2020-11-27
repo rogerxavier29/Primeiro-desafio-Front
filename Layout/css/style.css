@@ -168,3 +168,30 @@ img {
   color: white;
   font-size: 20px;
 }
+/* Footer */
+.footer {
+  background: #c4170c;
+  display: flex;
+  height: 190px;
+}
+.img2-g1 {
+  align-self: flex-end;
+  display: block;
+  margin-left: 100px;
+}
+.img2-g1 a {
+  text-decoration: none;
+  margin-left: 10px;
+  top: 30px;
+  display: flex;
+  align-self: center;
+}
+.p1-g1 {
+  margin-left: 30px;
+  font-size: 20px;
+  color: white;
+}
+.img2-g1 p {
+  color: white;
+  font-size: 18px;
+}
